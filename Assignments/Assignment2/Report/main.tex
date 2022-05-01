@@ -86,163 +86,85 @@
 [0.4cm]
 \hspace*{-3cm}
 \section{RANSAC Implementation}
-The given transformation is a piecewise intensity transformation that intensifies the input pixel values in the range from 50 to 150 while keeping the remaining output pixel values same as the input pixel values. The result is shown in the following figure.
+RANSAC is a general framework used for fitting models when there are outliers present in the images. In this question, we have to fit a circle using the RANSAC algorithm for a randomly generated set of points. The probability that atleast one sample is free from outliers (p) is set to be 0.99. The outlier ratio (e) was set to 0.5, considering the worst case. The threshold of selecting inliers was set to 1. The Samples N was calculated using the following equation.
+\begin{equation}\label{Equation 1: Number of samples}
+    N = \frac{\log(1-p)}{\log(1-(1-e)^{min_s})}
+\end{equation}
+Three random samples were selected in each iteration. The circle was found corresponding to the point at each sample. The inliers are found using the threshold. The current set of inliers is compared with the set of inliers obtained from the previous sample and the set with maximum number of inliers is selected. The iteration goes upto N. Then The RANSAC algorithm is run by giving the final set of inliers obtained as the input inorder to obtain the best fit circle. 
+\newline
+When considering the results, the best fit circle and the circle drawn using the sample points, which give the set with maximum inliers, are almost similar to each other. The code and Output are shown in figure 1 and 2 respectively.    
 \begin{figure}[htp]
     \centering
     \includegraphics[width=0.7\textwidth]{Question1code.png}
-    \caption{Histogram plots before and after equalization}
+    \caption{Code for RANSAC Algorithm}
 \end{figure}
 \vspace{-0.5cm}
 \begin{figure}[htp]
     \centering
     \includegraphics[width=0.5\textwidth]{Question1output.png}
-    \caption{Code for equalizing image}
+    \caption{RANSAC Circle Fitting}
 \end{figure}
-
-
-
-
-
-
-
+\section{Image Warping and Blending by calculating a hormography}
+In this question we have to warp and blend one image to another. Initially we have to select 4 points (We get fout points because it is the minimum number of points required to calculate the homography matrix) in the background image and the image to be warped. This can be done by the setMouseCallback function in the opencv library. After getting the four coordinate points of both images, we create a matrix A which is the coeffiecient matrix of the homography vector. We calculate the homography matrix using equation 2. The eigen vector corresponding to the minimum eigen value is taken and constructed into $3X3$ matrix. Then the image is warped according to the corresponing homograpghy matrix and added to the background image.
+Two other pairs of images were and the algorithm was tested. The essential codes are shown in figures 3 and 4. The results are shown in figure 5.
+\begin{equation}\label{Equation 2: hormography equation}
+     A.H = 0
+\end{equation}
 \begin{figure}
     \centering
-    \subfloat[label 1]{{\includegraphics[width=10.0cm]{Question1code.png}}}
+    \subfloat[mousePoints function]{{\includegraphics[width=7.0cm]{Question2code1.png}}}
     \qquad
-    \subfloat[label 2]{{\includegraphics[width=7.5cm]{Question1output.png}}}
-    \caption{2 Figures side by side}
+    \subfloat[Loop for selecting points]{{\includegraphics[width=7.0cm]{Question2code2.png}}}
+    \caption{Mouse click algorithm}
     \label{fig:example}
 \end{figure}
 
-\hspace{-3cm}
-\begin{figure}[H]
+\begin{figure}[htp]
     \centering
-    \begin{minipage}{.5\textwidth}
-      \centering
-        \includegraphics[width=1.\textwidth]{Question1code.png}
-        \caption{label1}
-      \label{fig:test1}
-    \end{minipage}%
-    \begin{minipage}{.5\textwidth}
-      \centering
-        \includegraphics[width=1.\textwidth]{Question1output.png}
-        \caption{label2}
-      \label{fig:test2}
-    \end{minipage}
+    \includegraphics[width=0.75\textwidth]{Question2code3.png}
+    \caption{Homography calculation}
 \end{figure}
 
-\section{Performing Gamma Correction($\gamma = 0.5$) and Calculating Histograms}
-Gamma correction is one of the basic intensity transformation that can be used to enhance contrast in an image. In this question we have to do gamma correction to the L plane of the image in the Lab color space. The transformation was done by considering $\gamma = 0.5$. The output pixel gets a value by going through a transformation as shown in equation 1. 
-The results are shown below.
-\begin{equation}\label{Equation 1: Gamma Correction Transformation}
-    Output pixel = 255*\left(\frac{Input pixel}{255}\right)^{\gamma}
-\end{equation}
-\begin{figure}[htp]
+\begin{figure}
     \centering
-    \includegraphics[width=0.8\textwidth]{Gammacorrected.png}
-    \caption{Results of doing gamma correction to a single plane ($\gamma = 0.5$)}
+    \subfloat[Output 1]{{\includegraphics[width=4.0cm]{Question2output21png.png}}}
+    \qquad
+    \subfloat[Output 2]{{\includegraphics[width=4.0cm]{Question2output2.png}}}
+    \qquad
+    \subfloat[Output 3]{{\includegraphics[width=4.0cm]{Question2output3.png}}}
+    \caption{Outputs for Warping and blending}
+    \label{fig:example2}
 \end{figure}
-Histograms were plot for the initial image and the gamma corrected image. We can observe that the peak of the histogram has moved slightly towards the right side. This shows that certain pixel values of the gamma corrected image is higher than the original image. This can be observed in the images of figure 5. The darkness of the original has reduced. 
-This phenomenon can be obesreved when $\gamma < 1$. When $\gamma > 1$, the image gets darker than the original image and the peak of the histogram will shift towards left further to a certain extent and then pixels in the right will shift towards left. The Histograms are shown below.
-\begin{figure}[htp]
-    \centering
-    \includegraphics[width=0.8\textwidth]{GammacorrectedHistograms.png}
-    \caption{Histograms of the original image and the gamma corrected image}
-\end{figure}
-\section{Histogram Equalization}
+
+
+
+
+
+
+%\hspace{-3cm}
+%\begin{figure}[H]
+%    \centering
+%    \begin{minipage}{.5\textwidth}
+%      \centering
+%        \includegraphics[width=1.\textwidth]{Question1code.png}
+%        \caption{label1}
+%      \label{fig:test1}
+%    \end{minipage}%
+%    \begin{minipage}{.5\textwidth}
+%     \centering
+%        \includegraphics[width=1.\textwidth]{Question1output.png}
+%       \caption{label2}
+%       \label{fig:test2}
+%    \end{minipage}
+%\end{figure}
+
+
+\section{Stitching Two Images by computing a hormography using RANSAC }
 Histogram equalization is also an intensity transformation that can be performed in an image such that the pixels are distributed all over the region that the pixels could take values. The result will be an improved version of the image. In this question we have to use a manual function for equalizing the image. Initially, the histogram of the input image is obtained. Then the cdf value is calculated at each point. The calculated cdf value is multiplied by the maximum possible pixel value (L-1) and divided by the product of the dimensions of the input image. The transformation is given by equation 2. 
 \begin{equation}\label{Equation 2: Histogram Equalization}
     s_k = \frac{L-1}{MN}\sum_{j=0}^{k} n_j
 \end{equation}
-Here M and N are the dimensions of the input image. The value of k ranges from 0 to L-1. Finally, the histogram of the output image is obtained. The histograms of the Equalized images created from the custom function and the in-built opencv function are plotted together and compared. We can obtain almost similar histogram plots in both cases. The results are shown in the following figure.
-\begin{figure}[htp]
-    \centering
-    \includegraphics[width=1.\textwidth]{HistogramEqualization.png}
-    \caption{Histogram plots before and after equalization}
-\end{figure}
-\begin{figure}[htp]
-    \centering
-    \includegraphics[width=0.5\textwidth]{Question4code.png}
-    \caption{Code for equalizing image}
-\end{figure}
-\section{Zooming a given image}
-We need to zoom images to do an analysis of these images. There are various techniques in zooming. Nearest neighbor interpolation, bilinear interpolation, bicubic interpolation are some of those techniques. In this question, we consider nearest neighbor interpolation and bilinear interpolation to calculate the normalized sum of squared difference (SSD).  
-\begin{itemize}
-    \item[(a)] In this part, we zoom the image using nearest neighbor interpolation method. The image pixels values are determined by finding the pixel value at the nearest pixel position to the required pixel position.
-    \begin{figure}[htp]
-        \centering
-        \includegraphics[width=0.5\textwidth]{Question5acode.png}
-        \caption{Code for nearest neighbor interpolation Zooming}
-    \end{figure}
-    \item[(b)] Bilinear interpolation technique is a technique where the nearest 4 neighbors of the required point are taken and 2 values in the x direction and y direction are calculated by multiplying the input pixel values with the ratio on how the point is located and summing them up. Then the final output pixel is obtained by doing a similar step for the immediate results obtained earlier.
-    \begin{figure}[htp]
-        \centering
-        \includegraphics[width=0.45\textwidth]{Question5bcode.png}
-        \caption{Code for nearest bilinear interpolation Zooming}
-    \end{figure}
-\end{itemize}
-The SSD values calculated for 3 images under each zooming technique are shown in the table below. From this table we can conclude that bilinear interpolation zooming is better than nearest neighbor interpolation zooming, since the SSD values in bilinear interpolation method are less than that in nearest neighbor interpolation method.
-\begin{table}[h!]
-\centering
-\begin{tabular}{ | m{3cm} | m{7.5cm} | m{5.5cm} | } 
-    \hline
-    \textbf{Image} & \textbf{SSD-Nearest Neighbor Interpolation} &\textbf{SSD-bilinear Interpolation}\\
-    \hline
-    Image 1        & 641.7879      &628.1125\\
-    \hline
-    Image 2        & 268.6875    & 259.3884\\
-    \hline
-    Image 3        & 391.3376    & 369.592\\
-    \hline
-\end{tabular}
-\caption{SSD Values.}
-\label{table:1}
-\end{table}
 
-\newpage
-\vspace*{-1cm}
-\hspace*{-3.6cm}
-\section{Sobel Filtering}
-Sobel Filtering is a filtering technique that helps to filter out the edges of a given image. Sobel vertical filter is used to find the horizontal edges of the image, while the sobel horizontal filter is used to identify the vertical edges.
-\begin{itemize}
-    \item[(a)] In this part, the image is sobel filtered using the opencv in-built function filter2D. 
-    \begin{figure}[htp]
-        \centering
-        \includegraphics[width=1.\textwidth]{Filter2d.png}
-        \caption{Sobel filtering using filter2D function}
-    \end{figure}
-    \item[(b)] In this part, we construct a filtering function code so that the image can be filtered using any given kernel. We initially determine the padding values required to pad the image. Then the kernel is run through the whole image and the pixel values located in the locations, covered by the kernel are multiplied by the values in the kernel and they are summed up to get the output pixel value. We get similar results as using the in built function.
-    \begin{figure}[htp]
-        \centering
-        \includegraphics[width=1.\textwidth]{ManualFilter.png}
-        \caption{Sobel filtering using custom filter function}
-    \end{figure}
-    \begin{figure}[htp]
-        \centering
-        \includegraphics[width=0.8\textwidth]{Question6bcode.png}
-        \caption{Code for manual filtering}
-    \end{figure}
-    \item[(c)] In this part, 2 arrays [1 ,2, 1] and $[-1, 0, 1]^{T}$ are defined and the input image is filtered using the arrays one by one for vertical filtering. The image is filtered with the transposes of the arrays for horizontal filtering. The results obtained are similar to the results obtained using the filter2D function. This shows the associative property of the filters.
-    \begin{figure}[htp]
-        \centering
-        \includegraphics[width=1.\textwidth]{AssociativeProperty.png}
-        \caption{Sobel filtering using associative  property}
-    \end{figure}
-\section{Enhancing a given Image}
-\item[(a)] A mask of the flower in the input image is created binary thresholding function in opencv. The mask image is read, foreground and background models are created accordingly. Finally Grabcut function was executed to separate the foreground flower and the background image. A value for binary thresholding was set such that the flower region is only shown as white. A custom mask was used instead of rectangular mask to prevent errors of selecting the exact position. 
-    \begin{figure}[htp]
-        \centering
-        \includegraphics[width=1.\textwidth]{GrabCut.png}
-        \caption{Separating foreground and background}
-    \end{figure}
-    \item[(b)] The separated foreground image is enhanced by increasing the saturation while the background is blurred using the Gaussian blur function. the foregroundand background sections are merged together later. 
-    \begin{figure}[htp]
-        \centering
-        \includegraphics[width=0.7\textwidth]{Enhancement.png}
-        \caption{Enhancing the image}
-    \end{figure}
-    \item[(c)] When the kernel size increases, the edges of the foreground image region which is black in the background image gains a significant value after gaussian blur so that when the foreground image is added to the background image, the edges of the foreground image do not gain the expected pixel value. Therefore, the edges are quite dark.
-\end{itemize}
 \textbf{Code Files} : All relevant codes and files can be found in \href{https://github.com/K-Thanushan/EN2550-Fundamentals-of-Image-Processing-and-Machine-Vision/tree/main/Assignments/Assignment1}{\textbf{\underline{GitHub}}}.
 
 \end{flushleft}

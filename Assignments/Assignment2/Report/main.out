@@ -1,6 +1,3 @@
 \BOOKMARK [1][-]{section.1}{RANSAC Implementation}{}% 1
-\BOOKMARK [1][-]{section.2}{Performing Gamma Correction\(= 0.5\) and Calculating Histograms}{}% 2
-\BOOKMARK [1][-]{section.3}{Histogram Equalization}{}% 3
-\BOOKMARK [1][-]{section.4}{Zooming a given image}{}% 4
-\BOOKMARK [1][-]{section.5}{Sobel Filtering}{}% 5
-\BOOKMARK [1][-]{section.6}{Enhancing a given Image}{}% 6
+\BOOKMARK [1][-]{section.2}{Image Warping and Blending by calculating a hormography}{}% 2
+\BOOKMARK [1][-]{section.3}{Stitching Two Images by computing a hormography using RANSAC }{}% 3

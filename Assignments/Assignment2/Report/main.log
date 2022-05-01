@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.3.19)  24 APR 2022 22:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.3.19)  28 APR 2022 18:30
 entering extended mode
 **"c:/My Files/UoM/My Academic/Semester 4/8 - EN2550 - Fundamentals of Image Processing & Machine Vision/EN2550 - Fundamentals of Image Processing and Machine Vision/Assignments/Assignment2/Report/main.tex"
 (c:/My Files/UoM/My Academic/Semester 4/8 - EN2550 - Fundamentals of Image Processing & Machine Vision/EN2550 - Fundamentals of Image Processing and Machine Vision/Assignments/Assignment2/Report/main.tex
@@ -405,7 +405,7 @@ LaTeX Info: Redefining \nameref on input line 42.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-<UoMLOGO.png, id=27, 401.5pt x 426.59375pt>
+<UoMLOGO.png, id=15, 401.5pt x 426.59375pt>
 File: UoMLOGO.png Graphic file (type png)
 <use UoMLOGO.png>
 Package pdftex.def Info: UoMLOGO.png  used on input line 54.
@@ -413,140 +413,73 @@ Package pdftex.def Info: UoMLOGO.png  used on input line 54.
  [1
 
 {C:/Users/K.Thanushan/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./UoMLOGO.png>]
-<Question1code.png, id=39, 762.4485pt x 458.9145pt>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 90.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 90.
+<Question1code.png, id=27, 770.88pt x 466.74374pt>
 File: Question1code.png Graphic file (type png)
 <use Question1code.png>
-Package pdftex.def Info: Question1code.png  used on input line 92.
-(pdftex.def)             Requested size: 359.18063pt x 216.18701pt.
-<Question1output.png, id=40, 602.25pt x 577.15625pt>
+Package pdftex.def Info: Question1code.png  used on input line 98.
+(pdftex.def)             Requested size: 359.18063pt x 217.46803pt.
+<Question1output.png, id=28, 602.25pt x 577.15625pt>
 File: Question1output.png Graphic file (type png)
 <use Question1output.png>
-Package pdftex.def Info: Question1output.png  used on input line 98.
-(pdftex.def)             Requested size: 256.55872pt x 245.8738pt.
-File: Question1code.png Graphic file (type png)
-<use Question1code.png>
-Package pdftex.def Info: Question1code.png  used on input line 110.
-(pdftex.def)             Requested size: 284.52756pt x 171.25221pt.
-File: Question1output.png Graphic file (type png)
-<use Question1output.png>
-Package pdftex.def Info: Question1output.png  used on input line 112.
-(pdftex.def)             Requested size: 213.39566pt x 204.5088pt.
-File: Question1code.png Graphic file (type png)
-<use Question1code.png>
-Package pdftex.def Info: Question1code.png  used on input line 122.
-(pdftex.def)             Requested size: 256.55872pt x 154.41829pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 125.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 125.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 125.
-File: Question1output.png Graphic file (type png)
-<use Question1output.png>
-Package pdftex.def Info: Question1output.png  used on input line 128.
+Package pdftex.def Info: Question1output.png  used on input line 104.
 (pdftex.def)             Requested size: 256.55872pt x 245.8738pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.133 
-       [1 <./Question1code.png> <./Question1output.png>] [2]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 134.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 134.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 134.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 134.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 134.
-
-<Gammacorrected.png, id=56, 1021.8175pt x 337.26pt>
-File: Gammacorrected.png Graphic file (type png)
-<use Gammacorrected.png>
-Package pdftex.def Info: Gammacorrected.png  used on input line 142.
-(pdftex.def)             Requested size: 410.49551pt x 135.48312pt.
-<GammacorrectedHistograms.png, id=57, 1053.9375pt x 376.40625pt>
-File: GammacorrectedHistograms.png Graphic file (type png)
-<use GammacorrectedHistograms.png>
-Package pdftex.def Info: GammacorrectedHistograms.png  used on input line 149.
-(pdftex.def)             Requested size: 410.49551pt x 146.6083pt.
-[3 <./Gammacorrected.png>]
-<HistogramEqualization.png, id=72, 1068.99374pt x 293.29575pt>
-File: HistogramEqualization.png Graphic file (type png)
-<use HistogramEqualization.png>
-Package pdftex.def Info: HistogramEqualization.png  used on input line 160.
-(pdftex.def)             Requested size: 513.11745pt x 140.78482pt.
-<Question4code.png, id=73, 351.11176pt x 243.91125pt>
-File: Question4code.png Graphic file (type png)
-<use Question4code.png>
-Package pdftex.def Info: Question4code.png  used on input line 165.
-(pdftex.def)             Requested size: 256.55872pt x 178.23236pt.
-<Question5acode.png, id=74, 425.79076pt x 181.8795pt>
-File: Question5acode.png Graphic file (type png)
-<use Question5acode.png>
-Package pdftex.def Info: Question5acode.png  used on input line 174.
-(pdftex.def)             Requested size: 256.55872pt x 109.592pt.
- [4 <./GammacorrectedHistograms.png> <./HistogramEqualization.png>]
-<Question5bcode.png, id=85, 461.3235pt x 483.0045pt>
-File: Question5bcode.png Graphic file (type png)
-<use Question5bcode.png>
-Package pdftex.def Info: Question5bcode.png  used on input line 180.
-(pdftex.def)             Requested size: 230.90128pt x 241.75223pt.
- [5 <./Question4code.png> <./Question5acode.png>]
-<Filter2d.png, id=96, 1358.07375pt x 335.2525pt>
-File: Filter2d.png Graphic file (type png)
-<use Filter2d.png>
-Package pdftex.def Info: Filter2d.png  used on input line 211.
-(pdftex.def)             Requested size: 513.11745pt x 126.66574pt.
-<ManualFilter.png, id=97, 1694.33pt x 411.5375pt>
-File: ManualFilter.png Graphic file (type png)
-<use ManualFilter.png>
-Package pdftex.def Info: ManualFilter.png  used on input line 217.
-(pdftex.def)             Requested size: 513.11745pt x 124.63019pt.
-<Question6bcode.png, id=98, 811.23074pt x 166.221pt>
-File: Question6bcode.png Graphic file (type png)
-<use Question6bcode.png>
-Package pdftex.def Info: Question6bcode.png  used on input line 222.
-(pdftex.def)             Requested size: 410.49551pt x 84.10959pt.
-<AssociativeProperty.png, id=99, 1358.07375pt x 335.2525pt>
-File: AssociativeProperty.png Graphic file (type png)
-<use AssociativeProperty.png>
-Package pdftex.def Info: AssociativeProperty.png  used on input line 228.
-(pdftex.def)             Requested size: 513.11745pt x 126.66574pt.
-<GrabCut.png, id=100, 1021.8175pt x 357.335pt>
-File: GrabCut.png Graphic file (type png)
-<use GrabCut.png>
-Package pdftex.def Info: GrabCut.png  used on input line 235.
-(pdftex.def)             Requested size: 513.11745pt x 179.43585pt.
- [6 <./Question5bcode.png> <./Filter2d.png>] [7 <./ManualFilter.png> <./Question6bcode.png> <./AssociativeProperty.png>]
-<Enhancement.png, id=120, 793.96625pt x 466.74374pt>
-File: Enhancement.png Graphic file (type png)
-<use Enhancement.png>
-Package pdftex.def Info: Enhancement.png  used on input line 241.
-(pdftex.def)             Requested size: 359.18063pt x 211.15088pt.
- [8 <./GrabCut.png> <./Enhancement.png>] [9] (main.aux)
+l.112 \end{equation}
+                     [1 <./Question1code.png>]
+<Question2code1.png, id=39, 456.5055pt x 124.66576pt>
+File: Question2code1.png Graphic file (type png)
+<use Question2code1.png>
+Package pdftex.def Info: Question2code1.png  used on input line 115.
+(pdftex.def)             Requested size: 199.16928pt x 54.39084pt.
+<Question2code2.png, id=40, 284.262pt x 106.59825pt>
+File: Question2code2.png Graphic file (type png)
+<use Question2code2.png>
+Package pdftex.def Info: Question2code2.png  used on input line 117.
+(pdftex.def)             Requested size: 199.16928pt x 74.68982pt.
+<Question2code3.png, id=41, 1034.06325pt x 238.491pt>
+File: Question2code3.png Graphic file (type png)
+<use Question2code3.png>
+Package pdftex.def Info: Question2code3.png  used on input line 124.
+(pdftex.def)             Requested size: 384.83807pt x 88.75702pt.
+<Question2output21png.png, id=42, 741.77126pt x 576.1525pt>
+File: Question2output21png.png Graphic file (type png)
+<use Question2output21png.png>
+Package pdftex.def Info: Question2output21png.png  used on input line 130.
+(pdftex.def)             Requested size: 113.81102pt x 88.3972pt.
+<Question2output2.png, id=43, 741.77126pt x 576.1525pt>
+File: Question2output2.png Graphic file (type png)
+<use Question2output2.png>
+Package pdftex.def Info: Question2output2.png  used on input line 132.
+(pdftex.def)             Requested size: 113.81102pt x 88.3972pt.
+<Question2output3.png, id=44, 833.1125pt x 576.1525pt>
+File: Question2output3.png Graphic file (type png)
+<use Question2output3.png>
+Package pdftex.def Info: Question2output3.png  used on input line 134.
+(pdftex.def)             Requested size: 113.81102pt x 78.70032pt.
+ [2 <./Question1output.png> <./Question2code1.png> <./Question2code2.png> <./Question2code3.png>] [3 <./Question2output21png.png> <./Question2output2.png> <./Question2output3.png>] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 24E238F0899C0F4EDB5ACDF8F1134E63;375.
+(rerunfilecheck)             Checksum: 4B4F5EEC00B372FC79F6F3999FE3F100;242.
  ) 
 Here is how much of TeX's memory you used:
- 10088 strings out of 479610
- 162837 string characters out of 2862020
- 478369 words of memory out of 3000000
- 27056 multiletter control sequences out of 15000+600000
- 409204 words of font info for 46 fonts, out of 8000000 for 9000
+ 10023 strings out of 479610
+ 161759 string characters out of 2862020
+ 477389 words of memory out of 3000000
+ 27015 multiletter control sequences out of 15000+600000
+ 408589 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,79p,816b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (10 pages, 3392440 bytes).
+ 71i,11n,79p,943b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (4 pages, 2747424 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
