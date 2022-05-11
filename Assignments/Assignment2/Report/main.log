@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.3.19)  28 APR 2022 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.3.19)  11 MAY 2022 19:14
 entering extended mode
 **"c:/My Files/UoM/My Academic/Semester 4/8 - EN2550 - Fundamentals of Image Processing & Machine Vision/EN2550 - Fundamentals of Image Processing and Machine Vision/Assignments/Assignment2/Report/main.tex"
 (c:/My Files/UoM/My Academic/Semester 4/8 - EN2550 - Fundamentals of Image Processing & Machine Vision/EN2550 - Fundamentals of Image Processing and Machine Vision/Assignments/Assignment2/Report/main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> (C:\Users\K.Thanushan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\K.Thanushan\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(C:\Users\K.Thanushan\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count177
 \c@section=\count178
@@ -305,7 +305,19 @@ Package caption Info: wrapfig package is loaded.
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count292
 \l__pdf_internal_box=\box56
-) (main.aux)
+)
+
+LaTeX Warning: Unused global option(s):
+    [10.5pt].
+
+(main.aux
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -362,12 +374,12 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \topmargin=-58.68121pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -405,81 +417,98 @@ LaTeX Info: Redefining \nameref on input line 42.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-<UoMLOGO.png, id=15, 401.5pt x 426.59375pt>
-File: UoMLOGO.png Graphic file (type png)
-<use UoMLOGO.png>
-Package pdftex.def Info: UoMLOGO.png  used on input line 54.
-(pdftex.def)             Requested size: 142.26378pt x 151.15868pt.
- [1
-
-{C:/Users/K.Thanushan/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./UoMLOGO.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 90.
+(Font)              <7> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 90.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 90.
+(Font)              <5> on input line 80.
 <Question1code.png, id=27, 770.88pt x 466.74374pt>
 File: Question1code.png Graphic file (type png)
 <use Question1code.png>
-Package pdftex.def Info: Question1code.png  used on input line 98.
-(pdftex.def)             Requested size: 359.18063pt x 217.46803pt.
-<Question1output.png, id=28, 602.25pt x 577.15625pt>
+Package pdftex.def Info: Question1code.png  used on input line 89.
+(pdftex.def)             Requested size: 410.49551pt x 248.541pt.
+<Question1output.png, id=29, 602.25pt x 577.15625pt>
 File: Question1output.png Graphic file (type png)
 <use Question1output.png>
-Package pdftex.def Info: Question1output.png  used on input line 104.
-(pdftex.def)             Requested size: 256.55872pt x 245.8738pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.112 \end{equation}
-                     [1 <./Question1code.png>]
-<Question2code1.png, id=39, 456.5055pt x 124.66576pt>
+Package pdftex.def Info: Question1output.png  used on input line 95.
+(pdftex.def)             Requested size: 205.24384pt x 196.68846pt.
+<Question2code1.png, id=30, 456.5055pt x 124.66576pt>
 File: Question2code1.png Graphic file (type png)
 <use Question2code1.png>
-Package pdftex.def Info: Question2code1.png  used on input line 115.
-(pdftex.def)             Requested size: 199.16928pt x 54.39084pt.
-<Question2code2.png, id=40, 284.262pt x 106.59825pt>
+Package pdftex.def Info: Question2code1.png  used on input line 100.
+(pdftex.def)             Requested size: 227.62204pt x 62.1596pt.
+<Question2code2.png, id=31, 284.262pt x 106.59825pt>
 File: Question2code2.png Graphic file (type png)
 <use Question2code2.png>
-Package pdftex.def Info: Question2code2.png  used on input line 117.
+Package pdftex.def Info: Question2code2.png  used on input line 102.
 (pdftex.def)             Requested size: 199.16928pt x 74.68982pt.
-<Question2code3.png, id=41, 1034.06325pt x 238.491pt>
+ [1
+
+{C:/Users/K.Thanushan/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Question1code.png>]
+<Question2code3.png, id=47, 532.389pt x 317.38576pt>
 File: Question2code3.png Graphic file (type png)
 <use Question2code3.png>
-Package pdftex.def Info: Question2code3.png  used on input line 124.
-(pdftex.def)             Requested size: 384.83807pt x 88.75702pt.
-<Question2output21png.png, id=42, 741.77126pt x 576.1525pt>
+Package pdftex.def Info: Question2code3.png  used on input line 115.
+(pdftex.def)             Requested size: 307.8736pt x 183.54146pt.
+<Question2output21png.png, id=48, 741.77126pt x 576.1525pt>
 File: Question2output21png.png Graphic file (type png)
 <use Question2output21png.png>
-Package pdftex.def Info: Question2output21png.png  used on input line 130.
+Package pdftex.def Info: Question2output21png.png  used on input line 121.
 (pdftex.def)             Requested size: 113.81102pt x 88.3972pt.
-<Question2output2.png, id=43, 741.77126pt x 576.1525pt>
+<Question2output2.png, id=49, 741.77126pt x 576.1525pt>
 File: Question2output2.png Graphic file (type png)
 <use Question2output2.png>
-Package pdftex.def Info: Question2output2.png  used on input line 132.
+Package pdftex.def Info: Question2output2.png  used on input line 123.
 (pdftex.def)             Requested size: 113.81102pt x 88.3972pt.
-<Question2output3.png, id=44, 833.1125pt x 576.1525pt>
+<Question2output3.png, id=50, 833.1125pt x 576.1525pt>
 File: Question2output3.png Graphic file (type png)
 <use Question2output3.png>
-Package pdftex.def Info: Question2output3.png  used on input line 134.
+Package pdftex.def Info: Question2output3.png  used on input line 125.
 (pdftex.def)             Requested size: 113.81102pt x 78.70032pt.
- [2 <./Question1output.png> <./Question2code1.png> <./Question2code2.png> <./Question2code3.png>] [3 <./Question2output21png.png> <./Question2output2.png> <./Question2output3.png>] (main.aux)
+<Question3SIFT.png, id=51, 832.10875pt x 357.335pt>
+File: Question3SIFT.png Graphic file (type png)
+<use Question3SIFT.png>
+Package pdftex.def Info: Question3SIFT.png  used on input line 136.
+(pdftex.def)             Requested size: 227.62204pt x 97.7467pt.
+<Question3code3.png, id=52, 898.557pt x 323.40825pt>
+File: Question3code3.png Graphic file (type png)
+<use Question3code3.png>
+Package pdftex.def Info: Question3code3.png  used on input line 138.
+(pdftex.def)             Requested size: 256.0748pt x 92.16736pt.
+ [2 <./Question1output.png> <./Question2code1.png> <./Question2code2.png>] [3 <./Question2code3.png> <./Question2output21png.png> <./Question2output2.png> <./Question2output3.png> <./Question3SIFT.png> <./Question3code3.png>]
+<Question3code1.png, id=84, 636.57825pt x 307.1475pt>
+File: Question3code1.png Graphic file (type png)
+<use Question3code1.png>
+Package pdftex.def Info: Question3code1.png  used on input line 152.
+(pdftex.def)             Requested size: 227.62204pt x 109.82782pt.
+<Question3code2.png, id=85, 595.023pt x 407.72325pt>
+File: Question3code2.png Graphic file (type png)
+<use Question3code2.png>
+Package pdftex.def Info: Question3code2.png  used on input line 154.
+(pdftex.def)             Requested size: 256.0748pt x 175.4731pt.
+<Question3Stitched.png, id=86, 695.59875pt x 576.1525pt>
+File: Question3Stitched.png Graphic file (type png)
+<use Question3Stitched.png>
+Package pdftex.def Info: Question3Stitched.png  used on input line 164.
+(pdftex.def)             Requested size: 153.9368pt x 127.5012pt.
+ [4 <./Question3code1.png> <./Question3code2.png> <./Question3Stitched.png>] (main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4B4F5EEC00B372FC79F6F3999FE3F100;242.
+(rerunfilecheck)             Checksum: 0EECE881D43E7F863BF04675D378A23E;450.
  ) 
 Here is how much of TeX's memory you used:
- 10023 strings out of 479610
- 161759 string characters out of 2862020
- 477389 words of memory out of 3000000
- 27015 multiletter control sequences out of 15000+600000
- 408589 words of font info for 44 fonts, out of 8000000 for 9000
+ 10046 strings out of 479610
+ 162336 string characters out of 2862020
+ 481327 words of memory out of 3000000
+ 27030 multiletter control sequences out of 15000+600000
+ 406455 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,79p,943b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (4 pages, 2747424 bytes).
+ 71i,11n,79p,1026b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/K.Thanushan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (4 pages, 4471939 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

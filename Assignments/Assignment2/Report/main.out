@@ -1,3 +1,6 @@
 \BOOKMARK [1][-]{section.1}{RANSAC Implementation}{}% 1
 \BOOKMARK [1][-]{section.2}{Image Warping and Blending by calculating a hormography}{}% 2
 \BOOKMARK [1][-]{section.3}{Stitching Two Images by computing a hormography using RANSAC }{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{SIFT Feature extraction}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Homography calculation}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Stitching Images}{section.3}% 6
